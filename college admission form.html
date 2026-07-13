@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container{
+            width: 450px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2{
+            text-align: center;
+            color: darkblue;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input, select, textarea{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .gender input{
+            width: auto;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>College Admission Form</h2>
+
+<form>
+
+<label>Student Name</label>
+<input type="text" placeholder="Enter Student Name">
+
+<label>Father's Name</label>
+<input type="text" placeholder="Enter Father's Name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter Email">
+
+<label>Contact Number</label>
+<input type="tel" placeholder="Enter Contact Number">
+
+<label>Course Selection</label>
+<select>
+    <option>Select Course</option>
+    <option>BCA</option>
+    <option>B.Sc Computer Science</option>
+    <option>B.Com</option>
+    <option>MCA</option>
+    <option>MBA</option>
+</select>
+
+<label>Gender</label>
+<div class="gender">
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+</div>
+
+<br><br>
+
+<label>Address</label>
+<textarea rows="4" placeholder="Enter Address"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
