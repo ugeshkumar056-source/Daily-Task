@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap:2px;  
+    
+}
+
+.card{
+    width:300px;
+
+    border:2px solid black;      
+    margin:50px auto;            
+    padding:20px;                
+
+    border-radius:15px;          
+
+    background-color:white;
+
+    text-align:center;
+
+    position:relative;
+}
+
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+
+button{
+    background-color:blue;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.card:hover{
+    background-color:lightyellow;
+}
+
+
+button:hover{
+    background-color:green;
+}
+
+
+.card::before{
+    content:"Popular";
+    color:red;
+    font-weight:bold;
+    display:block;
+    margin-bottom:10px;
+}
+.card1{
+    width:300px;
+
+    border:2px solid black;      
+    margin:50px auto;            
+    padding:20px;                
+
+    border-radius:15px;          
+
+    background-color:white;
+
+    text-align:center;
+
+    position:relative;
+}
+
+
+.card1 img{
+    width:90%;
+    border-radius:10px;
+}
+
+
+button{
+    background-color:blue;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.card1:hover{
+    background-color:lightyellow;
+}
+
+
+button:hover{
+    background-color:green;
+}
+
+
+.card1::before{
+    content:"Popular";
+    color:red;
+    font-weight:bold;
+    display:block;
+    margin-bottom:10px;
+}
